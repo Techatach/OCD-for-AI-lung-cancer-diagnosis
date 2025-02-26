@@ -1,0 +1,3 @@
+0 lung_aca
+1 lung_bnt
+2 lung_scc
