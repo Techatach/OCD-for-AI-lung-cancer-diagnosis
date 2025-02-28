@@ -10,7 +10,9 @@
       href="{{ url_for('static', filename='style/style.css') }}"
       rel="stylesheet"
     />
-    <title>{% block title %}Lung Cancer Prediction{% endblock title %}</title>
+    <title>
+      {% block title %}Lymphoma Cancer Prediction{% endblock title %}
+    </title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="" />
@@ -20,7 +22,7 @@
 
     <center style="font-family: Kanit, sans-serif; margin-top: 50px">
       <h1>
-        <div>การตรวจวินิจฉัยมะเร็งปอด</div>
+        <div>การตรวจวินิจฉัยมะเร็งต่อมน้ำเหลือง</div>
         <button
           type="button"
           onclick="init()"
@@ -34,9 +36,9 @@
         <div id="label-container"></div>
       </h1>
       <br />
-      <h3>lung_aca เป็นมะเร็งปอดชนิด aca</h3>
-      <h3>lung_bnt เป็นปกติไม่เป็นมะเร็ง</h3>
-      <h3>lung_scc เป็นมะเร็งปอดชนิด scc</h3>
+      <h3>lymph_cll เป็นมะเร็งต่อมน้ำเหลืองชนิด lymph_cll</h3>
+      <h3>lymph_fl เป็นมะเร็งต่อมน้ำเหลือกชนิด lymph_fl</h3>
+      <h3>lymph_mcl เป็นมะเร็งต่อมน้ำเหลืองชนิด lymph_mcl</h3>
     </center>
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
