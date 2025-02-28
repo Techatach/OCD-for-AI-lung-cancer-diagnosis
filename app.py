@@ -2,6 +2,8 @@
 # .venv\Scripts\activate
 # pip install Flask
 # pip install tensorflow==2.12.0
+# หรือ pip install tensorflow==2.15.0
+# pip install keras
 # pip install Pillow
 ## คำสั่งรันโมเดล
 # flask run 
